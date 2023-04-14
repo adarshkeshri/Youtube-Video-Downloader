@@ -4,7 +4,7 @@ from tkinter import messagebox
 from pytube import YouTube
 
 root = Tk()
-root.title = ('Youtube video downloader')
+root.title('Youtube video downloader')
 root.configure(background='LightYellow')
 root.minsize(width=600, height=100)
 root.resizable(width=False, height=False)
